@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(images/tom1.png);
+}
+
+.a {
+  background-image: url(images/tom2.png);
+}
+
+.s {
+  background-image: url(images/tom3.png);
+}
+
+.d {
+  background-image: url(images/tom4.png);
+}
+
+.j {
+  background-image: url(images/snare.png);
+}
+
+.k {
+  background-image: url(images/crash.png);
+}
+
+.l {
+  background-image: url(images/kick.png);
+}
+
+.a1 {
+  background-image: url(images/guitar1.png);
+}
+
+.a2 {
+  background-image: url(images/guitar1.jfif);
+}
+
+.a3 {
+  background-image: url(images/guitar2.jfif);
+}
+
+.a4 {
+  background-image: url(images/guitar3.jfif);
+}
+
+.a5 {
+  background-image: url(images/guitar4.jfif);
+}
+
+.a6 {
+  background-image: url(images/guitar5.jfif);
+}
+
+.a7 {
+  background-image: url(images/guitar6.jfif);
+}
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum, .guitar {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.superscript {
+  font-family: Montserrat, Roboto, sans-serif;
+  background-color: rgb(0, 194, 129);
+  padding: 8px 10px;
+  text-shadow: none;
+  border-radius: 3px;
+  color: white;
+  vertical-align: super;
+  font-size: x-small;
+}
